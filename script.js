@@ -22,9 +22,7 @@ function generatePassword() {
     alert("Length must be between 8-128 characters") 
     }
   } while (length < 8 ||  length > 128 || isNaN(length))
-  //   var length = parseInt (prompt("How many characters would you like your password to contain?"));
-  // return;
- 
+
 
 // THEN I am presented with a series of prompts for password criteria
 // WHEN I answer each prompt
